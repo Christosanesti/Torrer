@@ -1,0 +1,24 @@
+# Torrer Configuration Example
+# Copy this file to /etc/torrer/config.toml and customize as needed
+
+# Tor control port (default: 9051)
+tor_control_port = 9051
+
+# Tor transport port (default: 9040)
+tor_transport_port = 9040
+
+# Tor DNS port (default: 5353)
+tor_dns_port = 5353
+
+# Enable/disable IPv6 (default: false)
+# Set to true to allow IPv6 traffic (may cause leaks)
+ipv6_enabled = false
+
+# Enable automatic fallback to bridges (default: true)
+auto_fallback = true
+
+# Exit node country code (optional)
+# Use ISO 3166-1 alpha-2 format (e.g., "CA", "US", "DE")
+# Leave empty or omit to use any country
+country_code = "CA"
+

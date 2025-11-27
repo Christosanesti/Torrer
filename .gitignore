@@ -1,0 +1,71 @@
+# Rust
+/target/
+**/*.rs.bk
+*.pdb
+
+# Cargo
+Cargo.lock
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.o
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# System files
+.android/
+Android/
+snap/
+firefox/
+*.deb
+*.zip
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.ogg
+*.mp3
+*.docx
+*.jsonlz4
+*.sqlite
+*.sqlite-wal
+password.txt
+*.ovpn
+*.flatpakref
+
+# Project specific
+*.example.txt
+!examples/*.example.txt
+
+# Documentation (keep only README.md)
+docs/
+*.md
+!README.md
+
+# bmad and cursor
+.bmad-core/
+.cursor/
+bmad/
+**/bmad/
+**/.cursor/
+**/.bmad-core/
+
