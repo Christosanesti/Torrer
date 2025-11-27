@@ -4,11 +4,11 @@
 *.pdb
 
 # Cargo
-Cargo.lock
+# Cargo.lock  # Include Cargo.lock for applications
 
 # IDE
 .idea/
-.vscode/
+# .vscode/  # Include .vscode settings
 *.swp
 *.swo
 *~
